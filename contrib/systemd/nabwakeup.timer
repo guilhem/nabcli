@@ -1,0 +1,10 @@
+[Unit]
+Description=Cocorico
+
+[Timer]
+OnCalendar=Mon..Fri 08:59
+OnCalendar=Sat,Sun 10:59
+Persistent=true
+
+[Install]
+WantedBy=timers.target

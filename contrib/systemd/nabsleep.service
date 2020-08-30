@@ -1,0 +1,6 @@
+[Unit]
+Description=Sleep my rabbit
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/nabcli sleep

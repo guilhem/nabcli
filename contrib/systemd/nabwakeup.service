@@ -1,0 +1,6 @@
+[Unit]
+Description=Wakeup my rabbit
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/nabcli wakeup

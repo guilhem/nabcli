@@ -1,0 +1,10 @@
+[Unit]
+Description=Good Night
+
+[Timer]
+OnCalendar=Mon..Fri 20:00
+OnCalendar=Sat,Sun 22:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target
